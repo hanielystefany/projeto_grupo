@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura HTML-CSS</HTML-CSS></title>
+    <link rel="stylesheet" type="text/css" href="Estilo/estilo12.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="menu_top">
+            <div class="top_esp">
+                <figure>
+                    <img src="imagem/logo nutricional.02.png" alt="logo" height="150px">
+                </figure>
+            </div>
+        <div class="top_dir">
+            NUTRICIONAL AND SPORTS
+        </div>
+        <div class="clear"></div>
+
+       
+        <nav class="nav">
+            <a class="nav-link active" href="home.html">HOME</a>
+
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ALIMENTAÇÃO</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Frutas</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Legumes</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Verduras</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Quantidade</a>
+                </div>              
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">EXERCÍCIO FÍSICO</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Quadríceps</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Costas</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Abdomên</a>
+                  
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MUDANÇAS DE HÁBITO</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Trabalho</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Residência</a>
+                </div>
+              </li>
+
+              <a class="nav-link" href="consulta.html">CONSULTAS</a>
+          </nav>
+    </header>
+    <main>
+
+        <figure class="banner">
+            <img src="imagem/banner nutricional PNG.png">
+        </figure>
+
+        <div class="meio">
+            <div id="conteiner">
+                <h1>PLANILHA DE CONSULTA</h1>
+                <form method="post" action="#">
+                    <fieldset>
+                        <legend>Dados do Contato</legend>
+                        <div>
+                            <label for="name">Nome completo:</label>
+                            <input class="cc" type="text" nome="name" id="name">
+                        </div>
+                        <div>
+                            <label for="url">Endereço:</label>
+                            <input class="cc" type="text" nome="endereço" id="endereço">
+                        </div>     
+                            <div>
+                                <label for="cpf">CPF</label>
+                                <input class="cc" type="text" nome="cpf" id="cpf">
+                            </div>       
+                            <div>
+                                <label for="cpf">Celular/Telefone:</label>
+                                <input class="cc" type="text" nome="Celular" id="Celular">
+                            </div>
+                            <div>
+                                <label for="cpf">e-Mail:</label>
+                                <input class="cc" type="text" nome="e-Mail" id="e-Mail">
+                            </div>          
+                    </fieldset>
+                    <fieldset>
+                        <legend>Faz uso de rémedios contínuo, possui problemas de sáude ou já sofreu alguma lesão ?</legend>
+                        <div>
+                            <label for="meng">Se sim, explique</label>
+                            <textarea name="mensagem" id="meng"></textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Mensagens para o Whatzapp ?</legend>
+                        <div>
+                            <input type="radio" name="lembrar" id="sim" value="sim">
+                            <label class="cont" for="sim">Sim</label>
+                            <input type="radio" name="lembrar" id="nao" value="sim">
+                            <label class="cont" for="nao">Não</label>
+                        </div>
+                    </fieldset>
+                    <div class="bot">
+                        <button type="submit">Enivar dados</button>
+                    </div>
+                </form>
+            </div>
+
+    </div>
+    <!--
+    <div >
+        <img src="imagem/legumes 1.jpg" alt="img">
+    </div>
+-->
+
+</main>
+
+<div class="clear"></div>
+<footer>
+
+    <div class="roda">
+        <div class="roda_logo">
+            <img src="imagem/logo nutricional.02.png" alt="logo" width="80%">
+        </div>
+        <div>
+            <p class="roda_meio">  &copy; Santa Cruz do Rio Pardo - Tec.Miltimídia - SENAI-SP <br> 
+                <br>Ana Laura, Bianca Aparecida, Haniely Sthefany, Miguel Prezoto, Mirelle Pinheiro e Nathalia Adrienne </p>
+        </div>
+        <div class="roda_logo2">
+            <img src="imagem/IMG - CSS2/whats_logo_01.png" alt="logo" height="50px">
+            <img src="imagem/IMG - CSS2/face_logo_01.png" alt="logo" height="50px"height="32px"class="m-2">
+            <img src="imagem/IMG - CSS2/inst_logo_01.png" alt="logo" height="59px"height="32px"class="m-2 mr-3">
+        </div>
+    </div>
+</footer> 
+</body>
+
+<!-- Importando o jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- Importando o js do bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- JavaScript (Opcional) -->
+<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>

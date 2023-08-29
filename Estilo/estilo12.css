@@ -1,0 +1,114 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+  }  
+
+  .nav{
+    background-color:  #609966;
+  }
+
+    .nav-link{
+    color: rgb(255, 255, 255);
+    }
+
+  header{
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  main{
+    margin-top: 30px;
+  }
+  p{
+    text-align: justify;
+    line-height: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+  }
+  a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  a:hover{
+    color:#609966;
+  }
+  .menu_top{
+    width: 100%;
+    border-top: 10px solid #609966;
+    background-color: white;    
+  }
+
+  .top_esp{
+    width: 140px;
+    float: left;    
+  }
+  
+  .top_dir{
+    float: left;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color:#3B5E4C;
+    padding-left: 35px;
+    padding-top: 20px;
+  }
+  .menu_down{
+    background: #609966 ;
+    height: 40px;
+    text-align: center;
+  }
+  .clear{
+    clear: both
+  }
+
+  .banner img{
+    width: 100%;
+
+
+  }
+  .roda{
+    background-color: #609966;
+    height: 150px;
+    width: 100%;
+}
+
+  .roda_logo{
+    float: left;
+    width: 12%;
+  }
+
+  .roda_meio{
+
+    float: left;
+    text-align: center;
+    width: 70%;
+  }
+  .roda_logo2{
+    float: right;
+    margin-top: 30px;
+  }
+
+  .meio h2{
+    text-align: center;
+    margin: 20px;
+  }
+  .meio img{
+    float: left;
+    margin: 20px;
+    width: 25%;
+  }
+  
+  .meio2 h2{
+    text-align: center;
+    margin: 20px;
+  }
+  .meio2 img{
+    float: right;
+    margin: 20px;
+    width: 25%;
+  }
+  .m_meio{
+    display: flex;
+    justify-content: center;
+}
+  

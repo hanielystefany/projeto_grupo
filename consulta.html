@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de consulta</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #9DC08B;
+        }
+        #conteiner{
+            margin: 0 auto;
+            width: 50%;
+            background-color: white;
+            border-radius: 5px;
+            padding: 30px;
+        }
+        fieldset{
+            background-color: white;
+            border: 1px #D8D8D8 solid;
+            margin: 10px;
+        }
+        legend{
+            font-weight: bold;
+        }
+        label{
+            display: block;
+            cursor: pointer
+        }
+        .cont{
+            display: inline;
+            cursor: pointer;
+        }
+        .cc{
+            width: 100%;
+        }
+        textarea{
+            width: 100%;
+            height: 80px;
+            resize:none;
+        }
+        .bot{
+            margin:10px 0 0 10px;
+        }   
+    </style>
+</head>
+<body>
+
+    
+    <div id="conteiner">
+        <h1>PLANILHA DE CONSULTA</h1>
+        <form method="post" action="#">
+            <fieldset>
+                <legend>Dados do Contato</legend>
+                <div>
+                    <label for="name">Nome completo:</label>
+                    <input class="cc" type="text" nome="name" id="name">
+                </div>
+                <div>
+                    <label for="url">Endereço:</label>
+                    <input class="cc" type="text" nome="endereço" id="endereço">
+                </div>     
+                    <div>
+                        <label for="cpf">CPF</label>
+                        <input class="cc" type="text" nome="cpf" id="cpf">
+                    </div>       
+                    <div>
+                        <label for="cpf">Celular/Telefone:</label>
+                        <input class="cc" type="text" nome="Celular" id="Celular">
+                    </div>
+                    <div>
+                        <label for="cpf">e-Mail:</label>
+                        <input class="cc" type="text" nome="e-Mail" id="e-Mail">
+                    </div>          
+            </fieldset>
+            <fieldset>
+                <legend>Faz uso de rémedios contínuo, possui problemas de sáude ou já sofreu alguma lesão ?</legend>
+                <div>
+                    <label for="meng">Se sim, explique</label>
+                    <textarea name="mensagem" id="meng"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Mensagens para o Whatzapp ?</legend>
+                <div>
+                    <input type="radio" name="lembrar" id="sim" value="sim">
+                    <label class="cont" for="sim">Sim</label>
+                    <input type="radio" name="lembrar" id="nao" value="sim">
+                    <label class="cont" for="nao">Não</label>
+                </div>
+            </fieldset>
+            <div class="bot">
+                <button type="submit">Enivar dados</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
